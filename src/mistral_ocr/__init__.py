@@ -1,5 +1,7 @@
 """Mistral OCR - OCR project leveraging Mistral AI capabilities."""
 
+import sys
+
 __version__ = "0.1.0"
 __author__ = "Your Name"
 __email__ = "your.email@example.com"
@@ -10,4 +12,7 @@ __all__ = ["OCRProcessor"]
 
 
 def main() -> None:
-    print("Hello from mistral-ocr!")
+    """Main entry point placeholder."""
+    from .__main__ import main as cli_main
+
+    sys.exit(cli_main())

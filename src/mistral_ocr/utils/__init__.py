@@ -1,11 +1,11 @@
 """Utility functions for OCR processing."""
 
-from .encoding import encode_pdf_to_base64, create_data_url
-from .markdown import replace_images_in_markdown, combine_ocr_pages_to_markdown
+from .encoding import create_data_url, encode_pdf_to_base64
+from .markdown import combine_ocr_pages_to_markdown, replace_images_in_markdown
 
 __all__ = [
-    "encode_pdf_to_base64",
-    "create_data_url", 
-    "replace_images_in_markdown",
     "combine_ocr_pages_to_markdown",
+    "create_data_url",
+    "encode_pdf_to_base64",
+    "replace_images_in_markdown",
 ]
